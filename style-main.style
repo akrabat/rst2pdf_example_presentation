@@ -1,0 +1,147 @@
+embeddedFonts: []
+   [fonts/IstokWeb-Regular.ttf, fonts/IstokWeb-Bold.ttf, fonts/IstokWeb-Italic.ttf, fonts/IstokWeb-BoldItalic.ttf]
+   [fonts/Inconsolata.ttf, fonts/Inconsolata.ttf, fonts/Inconsolata.ttf, fonts/Inconsolata.ttf]
+
+pageSetup:
+    size: null
+    width: 16cm
+    height: 12cm
+    margin-top: 0cm
+    margin-bottom: 0cm
+    margin-left: 0cm
+    margin-right: 0cm
+    margin-gutter: 0cm
+    spacing-header: 2mm
+    spacing-footer: 2mm
+    firstTemplate: coverPage
+
+pageTemplates:
+    coverPage:
+        frames: []
+            [3%, 3%, 94%, 70%]
+        showHeader: false
+        showFooter: false
+
+    titlePage:
+        frames: []
+            [3%, 3%, 94%, 60%]
+        showHeader: false
+        showFooter: false
+        alignment: TA_CENTER
+
+    standardPage:
+        frames: []
+            [3%, 3%, 94%, 90%]
+        showHeader: false
+        showFooter: false
+
+    elephpantPage:
+        frames: []
+            [3%, 3%, 94%, 90%]
+        background: images/elephpant.jpg
+        showHeader: false
+        showFooter: false
+
+
+fontsAlias:
+    titleFont:         IstokWeb-Bold
+    headingFont:       IstokWeb-Regular
+    stdFont:           IstokWeb-Regular
+    stdBold:           IstokWeb-Bold
+    stdItalic:         IstokWeb-Italic
+    stdBoldItalic:     IstokWeb-BoldItalic
+    stdMono:           Inconsolata
+    stdMonoItalic:     Inconsolata
+    stdMonoBold:       Inconsolata
+    stdMonoBoldItalic: Inconsolata
+
+
+linkColor: #1b7b88
+
+styles:
+    normal:
+        fontSize: 14
+
+    bodytext:
+        alignment: TA_LEFT
+        hyphenation: false
+        spaceAfter: 10
+
+    footer:
+        fontSize: 8
+        alignment: TA_RIGHT
+
+    header:
+        alignment: TA_LEFT
+
+    heading:
+        textColor: #000000
+        fontName: headingFont
+        spaceAfter: 20
+        alignment: TA_LEFT
+
+    heading1:
+        fontName: headingFont
+        fontSize: 200%
+
+    heading2:
+        fontName: headingFont
+        spaceAfter: 5
+
+    heading3:
+        fontName: headingFont
+        spaceAfter: 5
+
+    title:
+        parent: heading
+        fontName: titleFont
+        fontSize: 225%
+        spaceAfter: 30
+        alignment: TA_CENTER
+
+    titleslideinfo:
+        parent: normal
+        alignment: TA_CENTER
+
+    literal:
+        textColor: #000000
+
+    code:
+        parent: literal
+        fontSize: 12
+        leftIndent: 0
+        spaceBefore: 8
+        spaceAfter: 8
+        backColor: null
+        borderColor: null
+        borderWidth: 0
+        borderPadding: 0
+
+    blockquote:
+        parent: normal
+        fontName: stdItalic
+
+    attribution:
+        parent: normal
+        textColor: #0000AA
+
+
+    bullet-list:
+        commands: []
+             [VALIGN, [ 0, 0 ], [ -1, -1 ], TOP ]
+             [RIGHTPADDING, [ 0, 0 ], [ 1, -1 ], 0 ]
+             [LEFTPADDING, [ 0, 0 ], [ 1, -1 ], 6 ]
+        colWidths: ["20", null]
+
+    bullet-list-item:
+        spaceAfter: 0
+
+    white:
+        textColor: #FFFFFF
+    
+    centred:
+        alignment: TA_CENTER
+
+    centredtitle:
+        parent: heading1
+        alignment: TA_CENTER
