@@ -8,6 +8,8 @@ To create the presentation:
 $ ./create.sh
 
 
+An example of the [created PDF](ttp://akrabat.com/stuff/rst2pdf_example_presentation.pdf)
+
 
 Useful Links:
 -------------
