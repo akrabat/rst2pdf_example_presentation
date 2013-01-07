@@ -15,5 +15,5 @@ Useful Links:
 -------------
 
 * rst2pdf: https://code.google.com/p/rst2pdf/
-* rst website: http://docutils.sourceforge.net/rst.html
-* pdf presenter: http://westhoffswelt.de/projects/pdf_presenter_console.html
+* reStructuredText: http://docutils.sourceforge.net/rst.html
+* Pdf Presenter Console: http://westhoffswelt.de/projects/pdf_presenter_console.html
