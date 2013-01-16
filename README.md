@@ -17,3 +17,4 @@ Useful Links:
 * rst2pdf: https://code.google.com/p/rst2pdf/
 * reStructuredText: http://docutils.sourceforge.net/rst.html
 * Pdf Presenter Console: http://westhoffswelt.de/projects/pdf_presenter_console.html
+* Markdown and reStructuredText: https://gist.github.com/1855764
