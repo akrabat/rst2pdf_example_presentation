@@ -1,5 +1,5 @@
-rst2pdf_example_presentation
-============================
+Presentations with rst2pdf
+==========================
 
 1. Write your presentation in [rST](http://docutils.sourceforge.net/rst.html) format (presentation.rst)
 2. Create appropriate syles (style-main.style in [RSON](http://code.google.com/p/rson/) format)
