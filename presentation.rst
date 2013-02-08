@@ -99,6 +99,7 @@ Image on a slide
 .. image:: images/elephpant.jpg
     :width: 10cm
 
+
 Some interesting code here
 ===========================
 
@@ -119,6 +120,21 @@ Some interesting code here
     }
 
 
+A table on a slide!
+===================
+
+This is a table
+
+
++------------+--------------------+------------+ 
+| Header 1   | Header 2           | Header 3   | 
++============+====================+============+ 
+| body row 1 | row one, column 2  | column 3   | 
++------------+--------------------+------------+ 
+| body row 2 | Cells may span mulitple columns.| 
++------------+--------------------+------------+ 
+| body row 3 | data               | more data  | 
++------------+--------------------+------------+
 
 .. Change to a title page
 .. raw:: pdf

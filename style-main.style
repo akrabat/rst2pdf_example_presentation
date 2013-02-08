@@ -136,6 +136,32 @@ styles:
     bullet-list-item:
         spaceAfter: 0
 
+    table:
+      spaceBefore:6
+      spaceAfter:0
+      alignment: TA_CENTER
+      commands: []
+             [VALIGN, [ 0, 0 ], [ -1, -1 ], TOP ]
+             [INNERGRID, [ 0, 0 ], [ -1, -1 ], 0.25, black ]
+             [ROWBACKGROUNDS, [0, 0], [-1, -1], [white, #FFFFFF]]
+             [BOX, [ 0, 0 ], [ -1, -1 ], 0.25, black ]
+
+    table-title:
+      parent : heading4
+      keepWithNext: false
+      alignment : TA_CENTER
+
+    table-heading:
+      parent : heading
+      backColor : #0000AA
+      textColor: #ffffff
+      alignment : TA_LEFT
+      valign : BOTTOM
+      borderPadding : 0
+
+    table-body:
+      parent : normal
+
     white:
         textColor: #FFFFFF
     
