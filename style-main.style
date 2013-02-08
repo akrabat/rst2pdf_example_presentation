@@ -143,7 +143,7 @@ styles:
       commands: []
              [VALIGN, [ 0, 0 ], [ -1, -1 ], TOP ]
              [INNERGRID, [ 0, 0 ], [ -1, -1 ], 0.25, black ]
-             [ROWBACKGROUNDS, [0, 0], [-1, -1], [white, #FFFFFF]]
+             [ROWBACKGROUNDS, [0, 0], [-1, -1], [#ddddff, white]]
              [BOX, [ 0, 0 ], [ -1, -1 ], 0.25, black ]
 
     table-title:
