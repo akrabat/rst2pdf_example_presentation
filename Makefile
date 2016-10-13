@@ -4,17 +4,18 @@ THIS_MAKEFILE_PATH:=$(word $(words $(MAKEFILE_LIST)),$(MAKEFILE_LIST))
 THIS_DIR:=$(shell cd $(dir $(THIS_MAKEFILE_PATH));pwd)
 
 INPUT = presentation.rst
-OUTPUT = $(THIS_DIR)/rst2pdf_example_presentation.pdf
+OUTPUT = $(THIS_DIR)/rst2pdf_example_presentation
 
 make:
 	cd "$(THIS_DIR)"
+	rm -f "$(OUTPUT).key"
 	rst2pdf "$(INPUT)" \
 		-b1 \
 		--fit-background-mode=scale \
 		--smart-quotes=0 \
 		--fit-literal-mode=overflow \
 		-s borland.style,style-main.style \
-		--output="$(OUTPUT)" \
+		--output="$(OUTPUT).pdf" \
 		--strip-elements-with-class=handout \
 		-e preprocess
 
