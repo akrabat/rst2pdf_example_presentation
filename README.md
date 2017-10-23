@@ -17,7 +17,9 @@ That's it. I've also uploaded the [created PDF](http://akrabat.com/stuff/rst2pdf
 Presenting on macOS
 -------------------
 
-One of the easier ways to present on a mac is to use Keynote. Convert a PDF file to Keynote format using [*PDF to Keynote* ](https://www.cs.hmc.edu/~oneill/freesoftware/pdftokeynote.html).
+One of the easier ways to present on a mac is to use [*Présentation*](http://iihm.imag.fr/blanch/software/osx-presentation/).
+
+Alternatively, try converting a PDF file to Keynote format using [*PDF to Keynote* ](https://www.cs.hmc.edu/~oneill/freesoftware/pdftokeynote.html).
 
 
 
